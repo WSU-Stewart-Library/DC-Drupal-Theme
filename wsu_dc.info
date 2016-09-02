@@ -1,0 +1,33 @@
+name = WSU Digital Collection (CDN)
+description = Custom wsu digital collections web site.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[mega_menu]		= 'Mega Menu'
+regions[featured_image]	= 'Featured Image'
+regions[global_search]	= 'Global Search'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer1]        = 'Footer 1'
+regions[footer2]		= 'Footer 2'
+regions[footer3]		= 'Footer 3'
+regions[footer4]		= 'Footer 4'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
