@@ -1,100 +1,8 @@
-/**
- * Place your custom styles here.  test
- */
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://fonts.googleapis.com/css?family=Oxygen);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
-@import url(https://fonts.googleapis.com/css?family=Cinzel);
-/* line 4, ../sass/header.scss */
-body {
-  font-family: 'Oxygen', sans-serif;
-}
-
-/****************
-	Logo Area
-*****************/
-/* line 12, ../sass/header.scss */
-.dc_logo {
-  float: right;
-}
-
-@media screen and (max-width: 767px) {
-  /* line 16, ../sass/header.scss */
-  .dc_logo {
-    float: left;
-  }
-}
-/* line 21, ../sass/header.scss */
-div#library-hours {
-  margin-top: 1%;
-}
-
-/* line 24, ../sass/header.scss */
-.navbar.container {
-  background-color: white;
-}
-
-/* line 28, ../sass/header.scss */
-header#navbar {
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
-/* line 33, ../sass/header.scss */
-a.name.navbar-brand {
-  font-family: Pinyon Script;
-  font-size: large;
-  text-shadow: 1px 1px 1px #aaa;
-}
-
-/* line 39, ../sass/header.scss */
-.navbar-default {
-  border: none;
-}
-
-/******************
-	Feat. Image
-******************/
-/*
-div#featured-image {
-	background-color: black;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-bottom: 2px solid #000;
-}
-*/
-/*
-img#featured_image {
-	width: 100%;
-	//overlapping css with search bar
-	position: relative;
-	z-index: 1;
-}
-*/
-/*
-div#global-search {
-position: relative;
-	z-index: 2;
-	margin-top: -40px;
-	height: 40px;
-	background-color: rgba( 9, 9, 9, .5);
-		//font styles
-		a { 
-			color: #e18c24;
-			font-size: small;
-		}
-}
-*/
-/*
-.image_details.pull-right {
-	padding-top: 10px;
-	padding-right: 10px;
-	font-family: 'Lato', sans-serif;
-}
-*/
 /********************
 	Footer Styles
 *********************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
 /* line 6, ../sass/footer.scss */
 div#footer {
   color: #a3a3a3;
@@ -178,8 +86,3 @@ div#footer {
     width: 80%;
   }
 }
-/*
-$wsu-white:							#f3f3f3;
-$wsu-purple:						#492365;
-$wsu-grey:							#ededed;
-*/

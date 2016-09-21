@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+/********************
+	Footer Styles
+*********************/
+div#footer {
+color: #a3a3a3;
+padding: 1% 0 2% 2%;
+
+background-image: url("../images/black_mamba.png");
+}
+//footer title class
+.footer_title {
+	color: #ffffff;
+	font-size: 16px;
+	margin: 20px 0px 0px 0px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+//eliminates borders inserted by bootstrap
+.footer {
+	border-top: none;
+}
+//links in footer
+.footer_columns {
+	a {
+		color: /* #8874b2 *//* #457b7b */#00adad;
+	}
+	a:hover {
+		color: /* #6f618d */darkslategray;
+		
+	}
+}
+//styles for the hr in footer
+.footer_row {
+	width: 30%;
+	hr {
+		border-top: 1px solid /* #8874b2 */ #454444;
+	}
+}
+
+/***********************************
+	Stewart Education Foundation
+***********************************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+
+#stewart_eduction {
+	text-align: right;
+	font-family: cinzel;
+}
+#ste_edu_foundation {
+	background-color: /* black */#2E2E2E;
+	border-top: 2px solid #3e3e3e;
+	
+}
+#ste_edu_foundation > .row > div > footer.footer.container {
+	padding: 4px 4px 4px 4px;
+	margin: 0px;
+	width: 100%;
+}
+
+/*****************
+	Mobile Css
+******************/
+@media screen and (max-width: 767px){
+	div#footer {
+		padding-bottom: 6%;
+	}
+}
+@media screen and (max-width: 991px){
+	.footer_row {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 400px){
+	.footer_row {
+		width: 80%;
+	}
+}
