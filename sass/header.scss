@@ -1,58 +1,49 @@
-/**
- * Place your custom styles here.  test
- */
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
-/* line 4, ../sass/header.scss */
+
 body {
-  font-family: 'Oxygen', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 }
 
 /****************
 	Logo Area
 *****************/
-/* line 12, ../sass/header.scss */
+//positions logo in header
 .dc_logo {
-  float: right;
+	float: right;
 }
-
-@media screen and (max-width: 767px) {
-  /* line 16, ../sass/header.scss */
-  .dc_logo {
-    float: left;
-  }
+@media screen and (max-width: 767px){
+	.dc_logo {
+		float: left;
+	}
 }
-/* line 21, ../sass/header.scss */
+//margin to position logo image
 div#library-hours {
-  margin-top: 1%;
+	margin-top: 1%;
 }
-
-/* line 24, ../sass/header.scss */
 .navbar.container {
-  background-color: white;
+	background-color: white;
 }
-
-/* line 28, ../sass/header.scss */
+//removes margins space on header area
 header#navbar {
-  margin-bottom: 0px;
-  margin-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
-/* line 33, ../sass/header.scss */
 a.name.navbar-brand {
-  font-family: Pinyon Script;
-  font-size: large;
-  text-shadow: 1px 1px 1px #aaa;
+	font-family: Pinyon Script;
+	font-size: large;
+	text-shadow: 1px 1px 1px #aaa;
 }
-
-/* line 39, ../sass/header.scss */
+//removes border in logo section
 .navbar-default {
-  border: none;
+	border: none;
 }
 
 /******************
 	Feat. Image
 ******************/
+//background color
 /*
 div#featured-image {
 	background-color: black;
@@ -69,6 +60,7 @@ img#featured_image {
 	z-index: 1;
 }
 */
+//overlapping css for image details 
 /*
 div#global-search {
 position: relative;
@@ -83,6 +75,7 @@ position: relative;
 		}
 }
 */
+//position image details
 /*
 .image_details.pull-right {
 	padding-top: 10px;
