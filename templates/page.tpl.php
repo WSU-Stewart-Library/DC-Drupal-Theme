@@ -77,17 +77,17 @@
   <div class="container-fluid">
     <div class="navbar-header col-xs-12 col-sm-6 col-md-5 col-lg-5">
       
-      <!--  DISPLAY LOGO -->
+      <!--  DISPLAY STEWART LIBRARY LOGO -->
       <?php if ($logo): ?>
           <div class="logo navbar-btn pull-left">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" usemap="#slLogo"/>
               <map name='slLogo'>
                 <area  alt="" title="Weber State University" href="http://www.weber.edu" shape="rect" coords="0,0,53,54" style="outline:none;" target="_self"     />
-                <area  alt="" title="Stewart Library" href="<?php print $front_page; ?>" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
+                <area  alt="" title="Stewart Library" href="http://www.library.weber.edu" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
               </map>
               </div>
           <?php endif; ?>
-          <!-- END DISPLAY LOGO -->
+          <!-- END DISPLAY STEWART LIBRARY LOGO -->
 
           <!-- DISPLAY SITE NAME -->
           <?php if (!empty($site_name)): ?>
@@ -96,7 +96,7 @@
           <!-- END DISPLAY SITE NAME -->
     </div>
 
-    <div class="col-xs-12 col-sm-6" id="library-hours">
+    <div class="col-xs-12 col-sm-6" id="DC-logo">
 
           <!-- DISPLAY DIGITAL COLLECTION SITE TITLE -->
           <div class="dc_logo" >
