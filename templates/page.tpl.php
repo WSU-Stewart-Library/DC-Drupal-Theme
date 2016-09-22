@@ -83,7 +83,7 @@
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" usemap="#slLogo"/>
               <map name='slLogo'>
                 <area  alt="" title="Weber State University" href="http://www.weber.edu" shape="rect" coords="0,0,53,54" style="outline:none;" target="_self"     />
-                <area  alt="" title="Stewart Library" href="http://www.library.weber.edu" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
+                <area  alt="" title="WSU Digital Collection" href="" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
               </map>
               </div>
           <?php endif; ?>
