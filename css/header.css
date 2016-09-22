@@ -50,40 +50,38 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/*
+/* line 47, ../sass/header.scss */
 div#featured-image {
-	background-color: black;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-bottom: 2px solid #000;
+  background-color: black;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 2px solid #000;
 }
-*/
-/*
+
+/* line 53, ../sass/header.scss */
 img#featured_image {
-	width: 100%;
-	//overlapping css with search bar
-	position: relative;
-	z-index: 1;
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
-*/
-/*
+
+/* line 60, ../sass/header.scss */
 div#global-search {
-position: relative;
-	z-index: 2;
-	margin-top: -40px;
-	height: 40px;
-	background-color: rgba( 9, 9, 9, .5);
-		//font styles
-		a { 
-			color: #e18c24;
-			font-size: small;
-		}
+  position: relative;
+  z-index: 2;
+  margin-top: -40px;
+  height: 40px;
+  background-color: rgba(9, 9, 9, 0.5);
 }
-*/
-/*
+/* line 67, ../sass/header.scss */
+div#global-search a {
+  color: #e18c24;
+  font-size: small;
+}
+
+/* line 73, ../sass/header.scss */
 .image_details.pull-right {
-	padding-top: 10px;
-	padding-right: 10px;
-	font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-family: 'Lato', sans-serif;
 }
-*/
