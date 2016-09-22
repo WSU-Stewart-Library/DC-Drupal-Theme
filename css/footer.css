@@ -10,7 +10,7 @@ div#footer {
   background-image: url("../images/black_mamba.png");
 }
 
-/* line 13, ../sass/footer.scss */
+/* line 12, ../sass/footer.scss */
 .footer_title {
   color: #ffffff;
   font-size: 16px;
@@ -20,25 +20,25 @@ div#footer {
   letter-spacing: 2px;
 }
 
-/* line 22, ../sass/footer.scss */
+/* line 21, ../sass/footer.scss */
 .footer {
   border-top: none;
 }
 
-/* line 27, ../sass/footer.scss */
+/* line 26, ../sass/footer.scss */
 .footer_columns a {
   color: #00adad;
 }
-/* line 30, ../sass/footer.scss */
+/* line 29, ../sass/footer.scss */
 .footer_columns a:hover {
   color: darkslategray;
 }
 
-/* line 36, ../sass/footer.scss */
+/* line 34, ../sass/footer.scss */
 .footer_row {
   width: 30%;
 }
-/* line 38, ../sass/footer.scss */
+/* line 36, ../sass/footer.scss */
 .footer_row hr {
   border-top: 1px solid #454444;
 }
@@ -46,19 +46,19 @@ div#footer {
 /***********************************
 	Stewart Education Foundation
 ***********************************/
-/* line 48, ../sass/footer.scss */
+/* line 46, ../sass/footer.scss */
 #stewart_eduction {
   text-align: right;
   font-family: cinzel;
 }
 
-/* line 52, ../sass/footer.scss */
+/* line 50, ../sass/footer.scss */
 #ste_edu_foundation {
   background-color: #2E2E2E;
   border-top: 2px solid #3e3e3e;
 }
 
-/* line 57, ../sass/footer.scss */
+/* line 55, ../sass/footer.scss */
 #ste_edu_foundation > .row > div > footer.footer.container {
   padding: 4px 4px 4px 4px;
   margin: 0px;
@@ -69,19 +69,19 @@ div#footer {
 	Mobile Css
 ******************/
 @media screen and (max-width: 767px) {
-  /* line 67, ../sass/footer.scss */
+  /* line 65, ../sass/footer.scss */
   div#footer {
     padding-bottom: 6%;
   }
 }
 @media screen and (max-width: 991px) {
-  /* line 72, ../sass/footer.scss */
+  /* line 70, ../sass/footer.scss */
   .footer_row {
     width: 50%;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 77, ../sass/footer.scss */
+  /* line 75, ../sass/footer.scss */
   .footer_row {
     width: 80%;
   }

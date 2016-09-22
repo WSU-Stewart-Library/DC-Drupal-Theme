@@ -6,7 +6,6 @@
 div#footer {
 color: #a3a3a3;
 padding: 1% 0 2% 2%;
-
 background-image: url("../images/black_mamba.png");
 }
 //footer title class
@@ -25,18 +24,17 @@ background-image: url("../images/black_mamba.png");
 //links in footer
 .footer_columns {
 	a {
-		color: /* #8874b2 *//* #457b7b */#00adad;
+		color: #00adad;
 	}
 	a:hover {
-		color: /* #6f618d */darkslategray;
-		
+		color: darkslategray;
 	}
 }
 //styles for the hr in footer
 .footer_row {
 	width: 30%;
 	hr {
-		border-top: 1px solid /* #8874b2 */ #454444;
+		border-top: 1px solid #454444;
 	}
 }
 
@@ -50,7 +48,7 @@ background-image: url("../images/black_mamba.png");
 	font-family: cinzel;
 }
 #ste_edu_foundation {
-	background-color: /* black */#2E2E2E;
+	background-color: #2E2E2E;
 	border-top: 2px solid #3e3e3e;
 	
 }
