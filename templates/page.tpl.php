@@ -83,7 +83,7 @@
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" usemap="#slLogo"/>
               <map name='slLogo'>
                 <area  alt="" title="Weber State University" href="http://www.weber.edu" shape="rect" coords="0,0,53,54" style="outline:none;" target="_self"     />
-                <area  alt="" title="WSU Digital Collection" href="" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
+                <area  alt="" title="WSU Digital Collection" href="http://drupaldc.dev" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
               </map>
               </div>
           <?php endif; ?>
@@ -162,7 +162,11 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-
+      <?php if ($title): ?>
+        <h2 class="title" id="page-title">
+          <?php print $title; ?>
+        </h2>
+      <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
       <?php if (!empty($tabs)): ?>
@@ -174,7 +178,14 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-      <?php print render($page['content']); ?>
+      
+      <?php if(!empty($page['content'])) : ?> 
+        <?php if(drupal_is_front_page()) { ?>
+          <?php unset($page['content']['system_main']['default_message']); ?>
+        <?php } ?>
+        <?php print render($page['content']); ?>
+      <?php endif; ?>
+
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
