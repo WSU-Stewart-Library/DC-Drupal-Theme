@@ -10,44 +10,59 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+/*** Media CSS ***/
+@media screen and (max-width: 767px) {
+  /* line 10, ../sass/header.scss */
+  img#featured_image {
+    width: 100% !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* line 15, ../sass/header.scss */
+  div#featured-image {
+    padding: 0px;
+    border-bottom: 2px solid #000;
+  }
+}
 /****************
 	Logo Area
 *****************/
-/* line 12, ../sass/header.scss */
+/* line 25, ../sass/header.scss */
 .dc_logo {
   float: right;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 16, ../sass/header.scss */
+  /* line 29, ../sass/header.scss */
   .dc_logo {
     float: left;
   }
 }
-/* line 21, ../sass/header.scss */
+/* line 34, ../sass/header.scss */
 div#DC-logo {
   margin-top: 1%;
 }
 
-/* line 24, ../sass/header.scss */
+/* line 37, ../sass/header.scss */
 .navbar.container {
   background-color: white;
 }
 
-/* line 28, ../sass/header.scss */
+/* line 41, ../sass/header.scss */
 header#navbar {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 33, ../sass/header.scss */
+/* line 46, ../sass/header.scss */
 a.name.navbar-brand {
   font-family: Pinyon Script;
   font-size: large;
   text-shadow: 1px 1px 1px #aaa;
 }
 
-/* line 39, ../sass/header.scss */
+/* line 52, ../sass/header.scss */
 .navbar-default {
   border: none;
 }
@@ -55,22 +70,19 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/* line 47, ../sass/header.scss */
+/* line 60, ../sass/header.scss */
 div#featured-image {
-  background-color: black;
-  padding-left: 0px;
-  padding-right: 0px;
   border-bottom: 2px solid #000;
 }
 
-/* line 53, ../sass/header.scss */
+/* line 64, ../sass/header.scss */
 img#featured_image {
-  width: 100%;
+  width: 80%;
   position: relative;
   z-index: 1;
 }
 
-/* line 60, ../sass/header.scss */
+/* line 72, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
@@ -78,13 +90,13 @@ div#global-search {
   height: 40px;
   background-color: rgba(9, 9, 9, 0.5);
 }
-/* line 67, ../sass/header.scss */
+/* line 79, ../sass/header.scss */
 div#global-search a {
   color: #e18c24;
   font-size: small;
 }
 
-/* line 73, ../sass/header.scss */
+/* line 85, ../sass/header.scss */
 .image_details.pull-right {
   padding-top: 10px;
   padding-right: 10px;
