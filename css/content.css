@@ -1,0 +1,37 @@
+/** Media CSS **/
+@media screen and (max-width: 767px) {
+  /* line 3, ../sass/content.scss */
+  dsection#block-webform-client-block-9 {
+    width: 85%;
+  }
+
+  /* line 6, ../sass/content.scss */
+  div#global-search {
+    margin-top: 0px;
+    z-index: 0;
+  }
+}
+/*******************************************
+	Front Page Global Collection Search
+********************************************/
+/* Centers the Global Search Bar */
+/* line 16, ../sass/content.scss */
+section#block-webform-client-block-9 {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 3px;
+}
+
+/* line 21, ../sass/content.scss */
+button.webform-submit.button-primary.btn.btn-primary.form-submit {
+  display: none;
+}
+
+/**************************
+		Flexslider
+**************************/
+/* line 28, ../sass/content.scss */
+div#flexslider-1 {
+  border: 0px;
+  margin-bottom: 0px;
+}

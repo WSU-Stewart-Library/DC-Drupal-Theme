@@ -17,47 +17,60 @@ body {
   /* line 15, ../sass/header.scss */
   div#featured-image {
     padding: 0px;
+  }
+
+  /* hides shorter background color for global search */
+  /* line 19, ../sass/header.scss */
+  .region.region-global-search {
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+  /* replaces with full width background color and border for global search */
+  /* line 24, ../sass/header.scss */
+  div#global-search {
+    background-color: rgba(9, 9, 9, 0.5);
     border-bottom: 2px solid #000;
   }
 }
 /****************
 	Logo Area
 *****************/
-/* line 25, ../sass/header.scss */
+/* line 33, ../sass/header.scss */
 .dc_logo {
   float: right;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 29, ../sass/header.scss */
+  /* line 37, ../sass/header.scss */
   .dc_logo {
     float: left;
   }
 }
-/* line 34, ../sass/header.scss */
+/* line 42, ../sass/header.scss */
 div#DC-logo {
   margin-top: 1%;
 }
 
-/* line 37, ../sass/header.scss */
+/* line 45, ../sass/header.scss */
 .navbar.container {
   background-color: white;
 }
 
-/* line 41, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 header#navbar {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 46, ../sass/header.scss */
+/* line 53, ../sass/header.scss */
 a.name.navbar-brand {
   font-family: Pinyon Script;
   font-size: large;
   text-shadow: 1px 1px 1px #aaa;
 }
 
-/* line 52, ../sass/header.scss */
+/* line 59, ../sass/header.scss */
 .navbar-default {
   border: none;
 }
@@ -65,33 +78,36 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/* line 60, ../sass/header.scss */
-div#featured-image {
-  border-bottom: 2px solid #000;
-}
-
-/* line 64, ../sass/header.scss */
+/* line 69, ../sass/header.scss */
 img#featured_image {
   width: 80%;
   position: relative;
   z-index: 1;
 }
 
-/* line 72, ../sass/header.scss */
+/* line 76, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
   margin-top: -40px;
   height: 40px;
-  background-color: rgba(9, 9, 9, 0.5);
+  /* 	background-color: rgba( 9, 9, 9, .5) */
 }
-/* line 79, ../sass/header.scss */
+/* line 83, ../sass/header.scss */
 div#global-search a {
   color: #e18c24;
   font-size: small;
 }
 
-/* line 85, ../sass/header.scss */
+/* creates shorter wideth background for global search */
+/* line 89, ../sass/header.scss */
+.region.region-global-search {
+  background-color: rgba(9, 9, 9, 0.5);
+  border-bottom: 2px solid #000;
+  height: 40px;
+}
+
+/* line 95, ../sass/header.scss */
 .image_details.pull-right {
   padding-top: 10px;
   padding-right: 10px;

@@ -14,9 +14,17 @@ body {
 	}
 	div#featured-image {
 		padding: 0px;
+	}
+	/* hides shorter background color for global search */
+	.region.region-global-search {
+		background-color: transparent !important;
+		border: none !important;
+	}
+	/* replaces with full width background color and border for global search */
+	div#global-search {
+		background-color: rgba( 9, 9, 9, .5);
 		border-bottom: 2px solid #000;
 	}
-	
 }
 /****************
 	Logo Area
@@ -42,7 +50,6 @@ header#navbar {
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
-
 a.name.navbar-brand {
 	font-family: Pinyon Script;
 	font-size: large;
@@ -52,14 +59,12 @@ a.name.navbar-brand {
 .navbar-default {
 	border: none;
 }
-
 /******************
 	Feat. Image
 ******************/
 //background color
 div#featured-image {
-// 	background-color: black;
-	border-bottom: 2px solid #000;
+// 	border-bottom: 2px solid #000;
 }
 img#featured_image {
 	width: 80%;
@@ -67,19 +72,24 @@ img#featured_image {
 	position: relative;
 	z-index: 1;
 }
-
 //overlapping css for image details 
 div#global-search {
 	position: relative;
-		z-index: 2;
-		margin-top: -40px;
-		height: 40px;
-		background-color: rgba( 9, 9, 9, .5);
-			//font styles
-			a { 
-				color: #e18c24;
-				font-size: small;
-			}
+	z-index: 2;
+	margin-top: -40px;
+	height: 40px;
+/* 	background-color: rgba( 9, 9, 9, .5) */;
+		//font styles
+		a { 
+			color: #e18c24;
+			font-size: small;
+		}
+}
+/* creates shorter wideth background for global search */
+.region.region-global-search {
+	background-color: rgba( 9, 9, 9, .5);
+	border-bottom: 2px solid #000;
+	height: 40px;
 }
 //position image details
 .image_details.pull-right {

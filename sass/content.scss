@@ -1,0 +1,31 @@
+/** Media CSS **/
+@media screen and (max-width: 767px){
+	dsection#block-webform-client-block-9 {
+		width: 85%;
+	}
+	div#global-search {
+		margin-top: 0px;
+		z-index: 0;
+	}
+}
+
+/*******************************************
+	Front Page Global Collection Search
+********************************************/
+/* Centers the Global Search Bar */
+section#block-webform-client-block-9 {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 3px;
+}
+button.webform-submit.button-primary.btn.btn-primary.form-submit {
+	display: none;
+}
+
+/**************************
+		Flexslider
+**************************/
+div#flexslider-1 {
+	border: 0px;
+	margin-bottom: 0px;
+}
