@@ -1,4 +1,12 @@
 /** Media CSS **/
+@media screen and (max-width: 991px){
+	a.btn.btn-primary.center-block {
+/*
+		margin-left: 2%;
+		width: 20%;
+*/
+	}
+}
 @media screen and (max-width: 767px){
 	dsection#block-webform-client-block-9 {
 		width: 85%;
@@ -6,6 +14,9 @@
 	div#global-search {
 		margin-top: 0px;
 		z-index: 0;
+	}
+	a.btn.btn-primary.center-block {
+// 		width: 50%;
 	}
 }
 
@@ -28,4 +39,44 @@ button.webform-submit.button-primary.btn.btn-primary.form-submit {
 div#flexslider-1 {
 	border: 0px;
 	margin-bottom: 0px;
+}
+
+/*************************************
+		Collections List/View
+**************************************/
+/*** Button Styles ***/
+#views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary {
+	background-color: cadetblue;
+	border-color: green;
+	width: 80%;
+}
+#views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary:hover {
+	background-color: #467779;
+	border-color: #22393a;
+}
+/* button alignment */
+a.btn.btn-primary.center-block {
+	position: absolute;
+    margin-bottom: 12%;
+    bottom: 0;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+}
+/* Height of Views */
+#views-bootstrap-thumbnail-1 > div > div > .thumbnail {
+	height: 400px;
+}
+/*** Image in View ***/
+.thumbnail > img, .thumbnail a > img {
+	width: /* 60% */200px;
+	height:	115px;
+	margin-top: 3%;
+}
+/* Title size */
+.thumbnail > .caption> h3 > a {
+	font-size: large;
+}
+.thumbnail > .caption> h3 {
+	margin-top: 5px;
 }

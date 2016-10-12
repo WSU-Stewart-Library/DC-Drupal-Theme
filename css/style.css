@@ -206,13 +206,22 @@ div#footer {
   }
 }
 /** Media CSS **/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   /* line 3, ../sass/content.scss */
+  a.btn.btn-primary.center-block {
+    /*
+    		margin-left: 2%;
+    		width: 20%;
+    */
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 11, ../sass/content.scss */
   dsection#block-webform-client-block-9 {
     width: 85%;
   }
 
-  /* line 6, ../sass/content.scss */
+  /* line 14, ../sass/content.scss */
   div#global-search {
     margin-top: 0px;
     z-index: 0;
@@ -222,14 +231,14 @@ div#footer {
 	Front Page Global Collection Search
 ********************************************/
 /* Centers the Global Search Bar */
-/* line 16, ../sass/content.scss */
+/* line 27, ../sass/content.scss */
 section#block-webform-client-block-9 {
   width: 50%;
   margin: 0 auto;
   padding-top: 3px;
 }
 
-/* line 21, ../sass/content.scss */
+/* line 32, ../sass/content.scss */
 button.webform-submit.button-primary.btn.btn-primary.form-submit {
   display: none;
 }
@@ -237,10 +246,63 @@ button.webform-submit.button-primary.btn.btn-primary.form-submit {
 /**************************
 		Flexslider
 **************************/
-/* line 28, ../sass/content.scss */
+/* line 39, ../sass/content.scss */
 div#flexslider-1 {
   border: 0px;
   margin-bottom: 0px;
+}
+
+/*************************************
+		Collections List/View
+**************************************/
+/*** Button Styles ***/
+/* line 48, ../sass/content.scss */
+#views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary {
+  background-color: cadetblue;
+  border-color: green;
+  width: 80%;
+}
+
+/* line 53, ../sass/content.scss */
+#views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary:hover {
+  background-color: #467779;
+  border-color: #22393a;
+}
+
+/* button alignment */
+/* line 58, ../sass/content.scss */
+a.btn.btn-primary.center-block {
+  position: absolute;
+  margin-bottom: 12%;
+  bottom: 0;
+  width: 80%;
+  left: 50%;
+  margin-left: -40%;
+}
+
+/* Height of Views */
+/* line 67, ../sass/content.scss */
+#views-bootstrap-thumbnail-1 > div > div > .thumbnail {
+  height: 400px;
+}
+
+/*** Image in View ***/
+/* line 71, ../sass/content.scss */
+.thumbnail > img, .thumbnail a > img {
+  width: 200px;
+  height: 115px;
+  margin-top: 3%;
+}
+
+/* Title size */
+/* line 77, ../sass/content.scss */
+.thumbnail > .caption > h3 > a {
+  font-size: large;
+}
+
+/* line 80, ../sass/content.scss */
+.thumbnail > .caption > h3 {
+  margin-top: 5px;
 }
 
 /*
