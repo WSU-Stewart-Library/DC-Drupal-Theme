@@ -97,3 +97,28 @@ a.btn.btn-primary.center-block {
 .thumbnail > .caption > h3 {
   margin-top: 5px;
 }
+
+/*******************************
+	   Second Page Styles
+*******************************/
+/* Centering Image */
+/* line 87, ../sass/content.scss */
+#block-system-main > div > div > div > div > div > div > img.img-responsive {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 1%;
+}
+
+/* Adjust title font size */
+/* line 95, ../sass/content.scss */
+#block-system-main > div > div > div > div > div > div > h2 {
+  font-size: 24px;
+}
+
+/* Adds padding around paragraph below image */
+/* line 99, ../sass/content.scss */
+#block-system-main > div > div > div > div > div > div > p {
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
