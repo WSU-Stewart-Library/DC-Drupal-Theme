@@ -34,7 +34,7 @@ body {
   /* replaces with full width background color and border for global search */
   /* line 24, ../sass/header.scss */
   div#global-search {
-    background-color: rgba(9, 9, 9, 0.5);
+    background-color: rgba(9, 9, 9, 0.9);
     border-bottom: 2px solid #000;
   }
 }
@@ -83,36 +83,45 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/* line 69, ../sass/header.scss */
+/* line 66, ../sass/header.scss */
+div#featured-image {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 71, ../sass/header.scss */
 img#featured_image {
   width: 80%;
   position: relative;
   z-index: 1;
 }
 
-/* line 76, ../sass/header.scss */
+/* line 78, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
   margin-top: -40px;
   height: 40px;
-  /* 	background-color: rgba( 9, 9, 9, .5) */
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 83, ../sass/header.scss */
+/* line 86, ../sass/header.scss */
 div#global-search a {
   color: #e18c24;
   font-size: small;
 }
 
 /* creates shorter wideth background for global search */
-/* line 89, ../sass/header.scss */
+/* line 92, ../sass/header.scss */
 .region.region-global-search {
   background-color: rgba(9, 9, 9, 0.5);
   border-bottom: 2px solid #000;
   height: 40px;
 }
 
-/* line 95, ../sass/header.scss */
+/* line 98, ../sass/header.scss */
 .image_details.pull-right {
   padding-top: 10px;
   padding-right: 10px;
@@ -311,20 +320,22 @@ a.btn.btn-primary.center-block {
 /* Centering Image */
 /* line 87, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > img.img-responsive {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  /*
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+  */
   padding-bottom: 1%;
 }
 
 /* Adjust title font size */
-/* line 95, ../sass/content.scss */
+/* line 97, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > h2 {
   font-size: 24px;
 }
 
 /* Adds padding around paragraph below image */
-/* line 99, ../sass/content.scss */
+/* line 101, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > p {
   padding-bottom: 2%;
   padding-top: 1%;
