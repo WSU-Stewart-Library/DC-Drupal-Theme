@@ -29,48 +29,47 @@ body {
   /* replaces with full width background color and border for global search */
   /* line 24, ../sass/header.scss */
   div#global-search {
-    background-color: rgba(9, 9, 9, 0.9);
-    border-bottom: 2px solid #000;
+    padding-top: 1%;
   }
 }
 /****************
 	Logo Area
 *****************/
-/* line 33, ../sass/header.scss */
+/* line 34, ../sass/header.scss */
 .dc_logo {
   float: right;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 37, ../sass/header.scss */
+  /* line 38, ../sass/header.scss */
   .dc_logo {
     float: left;
   }
 }
-/* line 42, ../sass/header.scss */
+/* line 43, ../sass/header.scss */
 div#DC-logo {
   margin-top: 1%;
 }
 
-/* line 45, ../sass/header.scss */
+/* line 46, ../sass/header.scss */
 .navbar.container {
   background-color: white;
 }
 
-/* line 49, ../sass/header.scss */
+/* line 50, ../sass/header.scss */
 header#navbar {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 53, ../sass/header.scss */
+/* line 54, ../sass/header.scss */
 a.name.navbar-brand {
   font-family: Pinyon Script;
   font-size: large;
   text-shadow: 1px 1px 1px #aaa;
 }
 
-/* line 59, ../sass/header.scss */
+/* line 60, ../sass/header.scss */
 .navbar-default {
   border: none;
 }
@@ -78,21 +77,21 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/* line 66, ../sass/header.scss */
+/* line 67, ../sass/header.scss */
 div#featured-image {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 71, ../sass/header.scss */
+/* line 72, ../sass/header.scss */
 img#featured_image {
   width: 80%;
   position: relative;
   z-index: 1;
 }
 
-/* line 78, ../sass/header.scss */
+/* line 79, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
@@ -102,21 +101,21 @@ div#global-search {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 86, ../sass/header.scss */
+/* line 87, ../sass/header.scss */
 div#global-search a {
   color: #e18c24;
   font-size: small;
 }
 
 /* creates shorter wideth background for global search */
-/* line 92, ../sass/header.scss */
+/* line 93, ../sass/header.scss */
 .region.region-global-search {
   background-color: rgba(9, 9, 9, 0.5);
   border-bottom: 2px solid #000;
   height: 40px;
 }
 
-/* line 98, ../sass/header.scss */
+/* line 99, ../sass/header.scss */
 .image_details.pull-right {
   padding-top: 10px;
   padding-right: 10px;

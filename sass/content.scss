@@ -14,9 +14,32 @@
 	div#global-search {
 		margin-top: 0px;
 		z-index: 0;
+		margin-bottom: 2%;
+		margin-top: 1%;
 	}
-	a.btn.btn-primary.center-block {
-// 		width: 50%;
+	/* responsive width of global search form */
+	section#block-webform-client-block-9 {
+		width: 100% !important;
+	}
+	/* second page collection search */
+	.form-item.webform-component.webform-component-textfield.webform-component--collections-search.form-group.form-item.form-item-submitted-collections-search.form-type-textfield.form-group {
+		margin-top: 4%;
+		margin-bottom: 4%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/** spacing **/
+	/* collection subjects */
+	.field.field-name-field-col-collection-subjects.field-type-taxonomy-term-reference.field-label-above {
+		padding-bottom: 1%;
+	}
+	/* paragraph text */
+	.field.field-name-body.field-type-text-with-summary.field-label-hidden {
+		padding-bottom: 1%;
+	}
+	/* removes extra margin space above title of collection */
+	.main-container > div > .col-sm-12 > h2#page-title {
+		margin-top: 0px;
 	}
 }
 
@@ -25,7 +48,7 @@
 ********************************************/
 /* Centers the Global Search Bar */
 section#block-webform-client-block-9 {
-	width: 50%;
+	width: 58%;
 	margin: 0 auto;
 	padding-top: 3px;
 }
@@ -85,20 +108,24 @@ a.btn.btn-primary.center-block {
 *******************************/
 /* Centering Image */
 #block-system-main > div > div > div > div > div > div > img.img-responsive {
-// 	width: 400px;
-/*
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-*/
     padding-bottom: 1%;
 }
 /* Adjust title font size */
-#block-system-main > div > div > div > div > div > div > h2 {
+#block-system-main > div > div > div > div > div > div > h2, h2#page-title {
 	font-size: 24px;
 }
 /* Adds padding around paragraph below image */
 #block-system-main > div > div > div > div > div > div > p {
-	padding-bottom: 2%;
+	padding-bottom: 1%;
     padding-top: 1%;
+}
+/* Adds padding below collections abb: content */
+.field.field-name-field-collection-abb-.field-type-text.field-label-above {
+	padding-bottom: 2%;
+}
+/* Collection Search Bar */
+.form-item.webform-component.webform-component-textfield.webform-component--collections-search.form-group.form-item.form-item-submitted-collections-search.form-type-textfield.form-group {
+	width: 80%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
