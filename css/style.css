@@ -51,30 +51,35 @@ body {
     float: left;
   }
 }
-/* line 43, ../sass/header.scss */
+/* line 42, ../sass/header.scss */
+div#DC-logo {
+  float: right;
+}
+
+/* line 46, ../sass/header.scss */
 div#DC-logo {
   margin-top: 1%;
 }
 
-/* line 46, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 .navbar.container {
   background-color: white;
 }
 
-/* line 50, ../sass/header.scss */
+/* line 53, ../sass/header.scss */
 header#navbar {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 54, ../sass/header.scss */
+/* line 57, ../sass/header.scss */
 a.name.navbar-brand {
   font-family: Pinyon Script;
   font-size: large;
   text-shadow: 1px 1px 1px #aaa;
 }
 
-/* line 60, ../sass/header.scss */
+/* line 63, ../sass/header.scss */
 .navbar-default {
   border: none;
 }
@@ -82,21 +87,22 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/* line 67, ../sass/header.scss */
+/* line 70, ../sass/header.scss */
 div#featured-image {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 72, ../sass/header.scss */
+/*
 img#featured_image {
-  width: 80%;
-  position: relative;
-  z-index: 1;
+	width: 80%;
+	//overlapping css with search bar
+	position: relative;
+	z-index: 1;
 }
-
-/* line 79, ../sass/header.scss */
+*/
+/* line 84, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
@@ -105,26 +111,19 @@ div#global-search {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-}
-/* line 87, ../sass/header.scss */
-div#global-search a {
-  color: #e18c24;
-  font-size: small;
+  /*
+  		a { 
+  			color: #e18c24;
+  			font-size: small;
+  		}
+  */
 }
 
-/* creates shorter wideth background for global search */
-/* line 93, ../sass/header.scss */
+/* line 100, ../sass/header.scss */
 .region.region-global-search {
   background-color: rgba(9, 9, 9, 0.5);
   border-bottom: 2px solid #000;
   height: 40px;
-}
-
-/* line 99, ../sass/header.scss */
-.image_details.pull-right {
-  padding-top: 10px;
-  padding-right: 10px;
-  font-family: 'Lato', sans-serif;
 }
 
 /********************
