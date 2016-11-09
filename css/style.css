@@ -260,9 +260,21 @@ div#footer {
   .main-container > div > .col-sm-12 > h2#page-title {
     margin-top: 0px;
   }
+
+  /* resizes button */
+  /* resizes fonts */
+  /* line 41, ../sass/content.scss */
+  .thumbnail > .caption > h3 > a {
+    font-size: medium !important;
+  }
+
+  /* line 44, ../sass/content.scss */
+  #views-bootstrap-thumbnail-1 > div > div > div > div > p {
+    font-size: small !important;
+  }
 }
 /*** Correcting Webpage Overflow ***/
-/* line 38, ../sass/content.scss */
+/* line 49, ../sass/content.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -275,14 +287,14 @@ html, body {
 	Front Page Global Collection Search
 ********************************************/
 /* Centers the Global Search Bar */
-/* line 50, ../sass/content.scss */
+/* line 61, ../sass/content.scss */
 section#block-webform-client-block-9 {
   width: 58%;
   margin: 0 auto;
   padding-top: 3px;
 }
 
-/* line 55, ../sass/content.scss */
+/* line 66, ../sass/content.scss */
 button.webform-submit.button-primary.btn.btn-primary.form-submit {
   display: none;
 }
@@ -290,7 +302,7 @@ button.webform-submit.button-primary.btn.btn-primary.form-submit {
 /**************************
 		Flexslider
 **************************/
-/* line 62, ../sass/content.scss */
+/* line 73, ../sass/content.scss */
 div#flexslider-1 {
   border: 0px;
   margin-bottom: 0px;
@@ -300,65 +312,68 @@ div#flexslider-1 {
 		Collections List/View
 **************************************/
 /*** Button Styles ***/
-/* line 71, ../sass/content.scss */
+/* line 82, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary {
   background-color: #ff9000;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   border-color: green;
-  width: 80%;
+  width: 75%;
 }
 
-/* line 77, ../sass/content.scss */
+/* line 88, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary:hover {
   background-color: orange;
   border-color: #22393a;
 }
 
 /* button alignment */
-/* line 82, ../sass/content.scss */
+/* line 93, ../sass/content.scss */
 a.btn.btn-primary.center-block {
   position: absolute;
-  margin-bottom: 12%;
+  margin-bottom: 12.5%;
   bottom: 0;
   width: 80%;
-  left: 50%;
+  left: 52.5%;
   margin-left: -40%;
 }
 
 /* Height of Views */
-/* line 91, ../sass/content.scss */
+/* line 102, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail {
   height: 280px;
 }
 
 /*** Image in View ***/
-/* line 95, ../sass/content.scss */
+/* line 106, ../sass/content.scss */
 .thumbnail > img, .thumbnail a > img {
   margin-top: 3.5%;
+  border: 1px solid gainsboro;
+  padding: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Title size */
-/* line 99, ../sass/content.scss */
+/* line 113, ../sass/content.scss */
 .thumbnail > .caption > h3 > a {
   font-size: small;
 }
 
-/* line 102, ../sass/content.scss */
+/* line 116, ../sass/content.scss */
 .thumbnail > .caption > h3 {
   line-height: .75;
 }
 
-/* line 105, ../sass/content.scss */
+/* line 119, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > div > div > p {
   font-size: smaller;
 }
 
-/* line 108, ../sass/content.scss */
+/* line 122, ../sass/content.scss */
 .thumbnail > .caption > h3 {
   margin-top: 1px;
 }
 
-/* line 111, ../sass/content.scss */
+/* line 125, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail {
   background-color: whitesmoke;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
@@ -369,26 +384,26 @@ a.btn.btn-primary.center-block {
 *******************************/
 /* Centering Image */
 /* Adjust title font size */
-/* line 124, ../sass/content.scss */
+/* line 138, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > h2, h2#page-title {
   font-size: 24px;
 }
 
 /* Adds padding around paragraph below image */
-/* line 128, ../sass/content.scss */
+/* line 142, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > p {
   padding-bottom: 1%;
   padding-top: 1%;
 }
 
 /* Adds padding below collections abb: content */
-/* line 133, ../sass/content.scss */
+/* line 147, ../sass/content.scss */
 .field.field-name-field-collection-abb-.field-type-text.field-label-above {
   padding-bottom: 2%;
 }
 
 /* Collection Search Bar */
-/* line 137, ../sass/content.scss */
+/* line 151, ../sass/content.scss */
 .form-item.webform-component.webform-component-textfield.webform-component--collections-search.form-group.form-item.form-item-submitted-collections-search.form-type-textfield.form-group {
   width: 80%;
   padding-top: 1%;

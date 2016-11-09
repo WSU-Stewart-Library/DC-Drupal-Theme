@@ -33,6 +33,17 @@
 	.main-container > div > .col-sm-12 > h2#page-title {
 		margin-top: 0px;
 	}
+	/* resizes button */
+	#views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary {
+		
+	}
+	/* resizes fonts */
+	.thumbnail > .caption > h3 > a {
+		font-size: medium !important;
+	}
+	#views-bootstrap-thumbnail-1 > div >div > div > div > p {
+		font-size: small !important;
+	}
 }
 /*** Correcting Webpage Overflow ***/
 html, body {
@@ -72,7 +83,7 @@ div#flexslider-1 {
 	background-color: /* cadetblue */#ff9000;
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 	border-color: green;
-	width: 80%;
+	width: 75%;
 }
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary:hover {
 	background-color: /* #467779 */orange;
@@ -81,10 +92,10 @@ div#flexslider-1 {
 /* button alignment */
 a.btn.btn-primary.center-block {
 	position: absolute;
-    margin-bottom: 12%;
+    margin-bottom: 12.5%;
     bottom: 0;
     width: 80%;
-    left: 50%;
+    left: 52.5%;
     margin-left: -40%;
 }
 /* Height of Views */
@@ -94,6 +105,9 @@ a.btn.btn-primary.center-block {
 /*** Image in View ***/
 .thumbnail > img, .thumbnail a > img {
 	margin-top: 3.5%;
+	border: 1px solid gainsboro;
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 /* Title size */
 .thumbnail > .caption > h3 > a {
