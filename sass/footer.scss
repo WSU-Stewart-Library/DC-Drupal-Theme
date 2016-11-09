@@ -24,10 +24,10 @@ background-image: url("../images/black_mamba.png");
 //links in footer
 .footer_columns {
 	a {
-		color: #00adad;
+		color: #00adad /* #a473c4 */;
 	}
 	a:hover {
-		color: darkslategray;
+		color: darkslategray/* #d0aaeb */;
 	}
 }
 //styles for the hr in footer
@@ -48,7 +48,7 @@ background-image: url("../images/black_mamba.png");
 	font-family: cinzel;
 }
 #ste_edu_foundation {
-	background-color: #2E2E2E;
+	background-color: #2E2E2E/* #492365 */;
 	border-top: 2px solid #3e3e3e;
 	
 }

@@ -213,22 +213,13 @@ div#footer {
   }
 }
 /** Media CSS **/
-@media screen and (max-width: 991px) {
-  /* line 3, ../sass/content.scss */
-  a.btn.btn-primary.center-block {
-    /*
-    		margin-left: 2%;
-    		width: 20%;
-    */
-  }
-}
 @media screen and (max-width: 767px) {
-  /* line 11, ../sass/content.scss */
+  /* line 3, ../sass/content.scss */
   dsection#block-webform-client-block-9 {
     width: 85%;
   }
 
-  /* line 14, ../sass/content.scss */
+  /* line 6, ../sass/content.scss */
   div#global-search {
     margin-top: 0px;
     z-index: 0;
@@ -237,13 +228,13 @@ div#footer {
   }
 
   /* responsive width of global search form */
-  /* line 21, ../sass/content.scss */
+  /* line 13, ../sass/content.scss */
   section#block-webform-client-block-9 {
     width: 100% !important;
   }
 
   /* second page collection search */
-  /* line 25, ../sass/content.scss */
+  /* line 17, ../sass/content.scss */
   .form-item.webform-component.webform-component-textfield.webform-component--collections-search.form-group.form-item.form-item-submitted-collections-search.form-type-textfield.form-group {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -253,25 +244,25 @@ div#footer {
 
   /** spacing **/
   /* collection subjects */
-  /* line 33, ../sass/content.scss */
+  /* line 25, ../sass/content.scss */
   .field.field-name-field-col-collection-subjects.field-type-taxonomy-term-reference.field-label-above {
     padding-bottom: 1%;
   }
 
   /* paragraph text */
-  /* line 37, ../sass/content.scss */
+  /* line 29, ../sass/content.scss */
   .field.field-name-body.field-type-text-with-summary.field-label-hidden {
     padding-bottom: 1%;
   }
 
   /* removes extra margin space above title of collection */
-  /* line 41, ../sass/content.scss */
+  /* line 33, ../sass/content.scss */
   .main-container > div > .col-sm-12 > h2#page-title {
     margin-top: 0px;
   }
 }
 /*** Correcting Webpage Overflow ***/
-/* line 46, ../sass/content.scss */
+/* line 38, ../sass/content.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -284,14 +275,14 @@ html, body {
 	Front Page Global Collection Search
 ********************************************/
 /* Centers the Global Search Bar */
-/* line 58, ../sass/content.scss */
+/* line 50, ../sass/content.scss */
 section#block-webform-client-block-9 {
   width: 58%;
   margin: 0 auto;
   padding-top: 3px;
 }
 
-/* line 63, ../sass/content.scss */
+/* line 55, ../sass/content.scss */
 button.webform-submit.button-primary.btn.btn-primary.form-submit {
   display: none;
 }
@@ -299,7 +290,7 @@ button.webform-submit.button-primary.btn.btn-primary.form-submit {
 /**************************
 		Flexslider
 **************************/
-/* line 70, ../sass/content.scss */
+/* line 62, ../sass/content.scss */
 div#flexslider-1 {
   border: 0px;
   margin-bottom: 0px;
@@ -309,21 +300,22 @@ div#flexslider-1 {
 		Collections List/View
 **************************************/
 /*** Button Styles ***/
-/* line 79, ../sass/content.scss */
+/* line 71, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary {
-  background-color: cadetblue;
+  background-color: #ff9000;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   border-color: green;
   width: 80%;
 }
 
-/* line 84, ../sass/content.scss */
+/* line 77, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary:hover {
-  background-color: #467779;
+  background-color: orange;
   border-color: #22393a;
 }
 
 /* button alignment */
-/* line 89, ../sass/content.scss */
+/* line 82, ../sass/content.scss */
 a.btn.btn-primary.center-block {
   position: absolute;
   margin-bottom: 12%;
@@ -334,60 +326,69 @@ a.btn.btn-primary.center-block {
 }
 
 /* Height of Views */
-/* line 98, ../sass/content.scss */
+/* line 91, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail {
-  height: 400px;
+  height: 280px;
 }
 
 /*** Image in View ***/
-/* line 102, ../sass/content.scss */
+/* line 95, ../sass/content.scss */
 .thumbnail > img, .thumbnail a > img {
-  width: 200px;
-  height: 115px;
-  margin-top: 3%;
+  margin-top: 3.5%;
 }
 
 /* Title size */
-/* line 108, ../sass/content.scss */
+/* line 99, ../sass/content.scss */
 .thumbnail > .caption > h3 > a {
-  font-size: large;
+  font-size: small;
+}
+
+/* line 102, ../sass/content.scss */
+.thumbnail > .caption > h3 {
+  line-height: .75;
+}
+
+/* line 105, ../sass/content.scss */
+#views-bootstrap-thumbnail-1 > div > div > div > div > p {
+  font-size: smaller;
+}
+
+/* line 108, ../sass/content.scss */
+.thumbnail > .caption > h3 {
+  margin-top: 1px;
 }
 
 /* line 111, ../sass/content.scss */
-.thumbnail > .caption > h3 {
-  margin-top: 5px;
+#views-bootstrap-thumbnail-1 > div > div > .thumbnail {
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 /*******************************
 	   Second Page Styles
 *******************************/
 /* Centering Image */
-/* line 118, ../sass/content.scss */
-#block-system-main > div > div > div > div > div > div > img.img-responsive {
-  padding-bottom: 1%;
-}
-
 /* Adjust title font size */
-/* line 122, ../sass/content.scss */
+/* line 124, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > h2, h2#page-title {
   font-size: 24px;
 }
 
 /* Adds padding around paragraph below image */
-/* line 126, ../sass/content.scss */
+/* line 128, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > p {
   padding-bottom: 1%;
   padding-top: 1%;
 }
 
 /* Adds padding below collections abb: content */
-/* line 131, ../sass/content.scss */
+/* line 133, ../sass/content.scss */
 .field.field-name-field-collection-abb-.field-type-text.field-label-above {
   padding-bottom: 2%;
 }
 
 /* Collection Search Bar */
-/* line 135, ../sass/content.scss */
+/* line 137, ../sass/content.scss */
 .form-item.webform-component.webform-component-textfield.webform-component--collections-search.form-group.form-item.form-item-submitted-collections-search.form-type-textfield.form-group {
   width: 80%;
   padding-top: 1%;
