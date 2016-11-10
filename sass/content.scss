@@ -1,5 +1,8 @@
 /** Media CSS **/
 @media screen and (max-width: 767px){
+	div#featured-image {
+		width: 95%;
+	}
 	dsection#block-webform-client-block-9 {
 		width: 85%;
 	}
