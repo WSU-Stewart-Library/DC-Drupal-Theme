@@ -5,8 +5,9 @@
 *********************/
 div#footer {
 color: #a3a3a3;
-padding: 1% 0 2% 2%;
+padding: 1% 5% 2% 5%;
 background-image: url("../images/black_mamba.png");
+font-size: 13px;
 }
 //footer title class
 .footer_title {
@@ -27,7 +28,8 @@ background-image: url("../images/black_mamba.png");
 		color: #00adad /* #a473c4 */;
 	}
 	a:hover {
-		color: darkslategray/* #d0aaeb */;
+		color: /* darkslategray *//* #d0aaeb */#01d4d4;
+		font-weight: bolder;
 	}
 }
 //styles for the hr in footer
