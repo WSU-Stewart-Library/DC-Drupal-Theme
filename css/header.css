@@ -15,19 +15,24 @@ body {
   }
 
   /* line 15, ../sass/header.scss */
+  div#featured-image, div#menu-container {
+    width: 95% !important;
+  }
+
+  /* line 18, ../sass/header.scss */
   div#featured-image {
     padding: 0px;
   }
 
   /* hides shorter background color for global search */
-  /* line 19, ../sass/header.scss */
+  /* line 22, ../sass/header.scss */
   .region.region-global-search {
     background-color: transparent !important;
     border: none !important;
   }
 
   /* replaces with full width background color and border for global search */
-  /* line 24, ../sass/header.scss */
+  /* line 27, ../sass/header.scss */
   div#global-search {
     padding-top: 1%;
   }
@@ -35,46 +40,46 @@ body {
 /****************
 	Logo Area
 *****************/
-/* line 34, ../sass/header.scss */
+/* line 37, ../sass/header.scss */
 .dc_logo {
   float: right;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 38, ../sass/header.scss */
+  /* line 41, ../sass/header.scss */
   .dc_logo {
     float: left;
   }
 }
-/* line 42, ../sass/header.scss */
+/* line 45, ../sass/header.scss */
 div#DC-logo {
   float: right;
 }
 
-/* line 46, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 div#DC-logo {
   margin-top: 1%;
 }
 
-/* line 49, ../sass/header.scss */
+/* line 52, ../sass/header.scss */
 .navbar.container {
   background-color: white;
 }
 
-/* line 53, ../sass/header.scss */
+/* line 56, ../sass/header.scss */
 header#navbar {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 57, ../sass/header.scss */
+/* line 60, ../sass/header.scss */
 a.name.navbar-brand {
   font-family: Pinyon Script;
   font-size: large;
   text-shadow: 1px 1px 1px #aaa;
 }
 
-/* line 63, ../sass/header.scss */
+/* line 66, ../sass/header.scss */
 .navbar-default {
   border: none;
 }
@@ -82,7 +87,7 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/* line 70, ../sass/header.scss */
+/* line 73, ../sass/header.scss */
 div#featured-image {
   width: 85%;
   margin-left: auto;
@@ -99,7 +104,7 @@ img#featured_image {
 	z-index: 1;
 }
 */
-/* line 86, ../sass/header.scss */
+/* line 89, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
@@ -112,7 +117,7 @@ div#global-search {
   padding-left: 0px;
 }
 
-/* line 98, ../sass/header.scss */
+/* line 101, ../sass/header.scss */
 .region.region-global-search {
   background-color: rgba(9, 9, 9, 0.5);
   border-bottom: 2px solid #000;
