@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+/* line 1, ../sass/megamenu.scss */
+div#md-megamenu-1 {
+  background-color: #2E2E2E;
+  border-bottom: none;
+}
+
+/* line 5, ../sass/megamenu.scss */
+div#menu-container {
+  background-color: #2E2E2E;
+  border-bottom: 2px solid #000;
+  width: 85%;
+}
+
+/* line 13, ../sass/megamenu.scss */
+#md-megamenu-1 .awemenu-submenu {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 18, ../sass/megamenu.scss */
+section#block-md-megamenu-1 {
+  font-family: 'Quicksand', sans-serif;
+}

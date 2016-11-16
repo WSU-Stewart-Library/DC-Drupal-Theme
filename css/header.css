@@ -87,6 +87,8 @@ div#featured-image {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 /*
@@ -97,7 +99,7 @@ img#featured_image {
 	z-index: 1;
 }
 */
-/* line 84, ../sass/header.scss */
+/* line 86, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
@@ -106,15 +108,11 @@ div#global-search {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  /*
-  		a { 
-  			color: #e18c24;
-  			font-size: small;
-  		}
-  */
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
-/* line 100, ../sass/header.scss */
+/* line 98, ../sass/header.scss */
 .region.region-global-search {
   background-color: rgba(9, 9, 9, 0.5);
   border-bottom: 2px solid #000;

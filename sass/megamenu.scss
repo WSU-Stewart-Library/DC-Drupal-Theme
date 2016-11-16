@@ -1,0 +1,27 @@
+div#md-megamenu-1 {
+	background-color: #2E2E2E;
+	border-bottom: none;
+}
+div#menu-container {
+	background-color: #2E2E2E;
+	border-bottom: 2px solid #000;
+// 	border-top: 4px solid #beb0c8;
+	width: 85%;
+}
+
+//background transperancy 
+#md-megamenu-1 .awemenu-submenu {
+	background-color: rgba(0,0,0,.8);
+}
+
+//megamenu font
+section#block-md-megamenu-1 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+//Importing Fonts
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+
+
