@@ -105,7 +105,6 @@
           <!-- END DISPLAY DIGITAL COLLECTION SITE TITLE -->        
     </div>
   </div>
-  </header>
 
   <!-- DISPLAYS MENU OPTIONS -->
   <div class="container-fluid" id="menu-container">
@@ -136,6 +135,7 @@
   <?php endif; ?>
 </div>
 <!-- END GLOBAL SEARCH -->
+</header>
 
 <div class="main-container <?php print $container_class; ?>">
 

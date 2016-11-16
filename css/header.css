@@ -40,46 +40,53 @@ body {
 /****************
 	Logo Area
 *****************/
+/*test css */
 /* line 37, ../sass/header.scss */
+#navbar > .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 42, ../sass/header.scss */
 .dc_logo {
   float: right;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 41, ../sass/header.scss */
+  /* line 46, ../sass/header.scss */
   .dc_logo {
     float: left;
   }
 }
-/* line 45, ../sass/header.scss */
+/* line 50, ../sass/header.scss */
 div#DC-logo {
   float: right;
 }
 
-/* line 49, ../sass/header.scss */
+/* line 54, ../sass/header.scss */
 div#DC-logo {
   margin-top: 1%;
 }
 
-/* line 52, ../sass/header.scss */
+/* line 57, ../sass/header.scss */
 .navbar.container {
   background-color: white;
 }
 
-/* line 56, ../sass/header.scss */
+/* line 61, ../sass/header.scss */
 header#navbar {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 60, ../sass/header.scss */
+/* line 65, ../sass/header.scss */
 a.name.navbar-brand {
   font-family: Pinyon Script;
   font-size: large;
   text-shadow: 1px 1px 1px #aaa;
 }
 
-/* line 66, ../sass/header.scss */
+/* line 71, ../sass/header.scss */
 .navbar-default {
   border: none;
 }
@@ -87,9 +94,8 @@ a.name.navbar-brand {
 /******************
 	Feat. Image
 ******************/
-/* line 73, ../sass/header.scss */
+/* line 78, ../sass/header.scss */
 div#featured-image {
-  width: 85%;
   margin-left: auto;
   margin-right: auto;
   padding-right: 0px;
@@ -104,20 +110,19 @@ img#featured_image {
 	z-index: 1;
 }
 */
-/* line 89, ../sass/header.scss */
+/* line 94, ../sass/header.scss */
 div#global-search {
   position: relative;
   z-index: 2;
   margin-top: -40px;
   height: 40px;
-  width: 85%;
   margin-left: auto;
   margin-right: auto;
   padding-right: 0px;
   padding-left: 0px;
 }
 
-/* line 101, ../sass/header.scss */
+/* line 106, ../sass/header.scss */
 .region.region-global-search {
   background-color: rgba(9, 9, 9, 0.5);
   border-bottom: 2px solid #000;

@@ -6,9 +6,12 @@ div#menu-container {
 	background-color: #2E2E2E;
 	border-bottom: 2px solid #000;
 // 	border-top: 4px solid #beb0c8;
-	width: 85%;
+// 	width: 85%;
 }
-
+div#featured-image {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 //background transperancy 
 #md-megamenu-1 .awemenu-submenu {
 	background-color: rgba(0,0,0,.8);
