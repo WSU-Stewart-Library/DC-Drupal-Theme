@@ -106,6 +106,8 @@ a.btn.btn-primary.center-block {
 	height: 280px;
 }
 /*** Image in View ***/
+//setting the width of the view collection & centering 
+
 .thumbnail > img, .thumbnail a > img {
 	margin-top: 3.5%;
 	border: 1px solid gainsboro;
@@ -139,7 +141,7 @@ a.btn.btn-primary.center-block {
 }
 /* Adjust title font size */
 #block-system-main > div > div > div > div > div > div > h2, h2#page-title {
-	font-size: 24px;
+	font-size: 18px;
 }
 /* Adds padding around paragraph below image */
 #block-system-main > div > div > div > div > div > div > p {

@@ -135,7 +135,7 @@ a.btn.btn-primary.center-block {
 }
 
 /*** Image in View ***/
-/* line 109, ../sass/content.scss */
+/* line 111, ../sass/content.scss */
 .thumbnail > img, .thumbnail a > img {
   margin-top: 3.5%;
   border: 1px solid gainsboro;
@@ -144,27 +144,27 @@ a.btn.btn-primary.center-block {
 }
 
 /* Title size */
-/* line 116, ../sass/content.scss */
+/* line 118, ../sass/content.scss */
 .thumbnail > .caption > h3 > a {
   font-size: small;
 }
 
-/* line 119, ../sass/content.scss */
+/* line 121, ../sass/content.scss */
 .thumbnail > .caption > h3 {
   line-height: .75;
 }
 
-/* line 122, ../sass/content.scss */
+/* line 124, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > div > div > p {
   font-size: smaller;
 }
 
-/* line 125, ../sass/content.scss */
+/* line 127, ../sass/content.scss */
 .thumbnail > .caption > h3 {
   margin-top: 1px;
 }
 
-/* line 128, ../sass/content.scss */
+/* line 130, ../sass/content.scss */
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail {
   background-color: whitesmoke;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
@@ -175,26 +175,26 @@ a.btn.btn-primary.center-block {
 *******************************/
 /* Centering Image */
 /* Adjust title font size */
-/* line 141, ../sass/content.scss */
+/* line 143, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > h2, h2#page-title {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 /* Adds padding around paragraph below image */
-/* line 145, ../sass/content.scss */
+/* line 147, ../sass/content.scss */
 #block-system-main > div > div > div > div > div > div > p {
   padding-bottom: 1%;
   padding-top: 1%;
 }
 
 /* Adds padding below collections abb: content */
-/* line 150, ../sass/content.scss */
+/* line 152, ../sass/content.scss */
 .field.field-name-field-collection-abb-.field-type-text.field-label-above {
   padding-bottom: 2%;
 }
 
 /* Collection Search Bar */
-/* line 154, ../sass/content.scss */
+/* line 156, ../sass/content.scss */
 .form-item.webform-component.webform-component-textfield.webform-component--collections-search.form-group.form-item.form-item-submitted-collections-search.form-type-textfield.form-group {
   width: 80%;
   padding-top: 1%;

@@ -28,16 +28,24 @@ body {
 // 		background-color: rgba( 9, 9, 9, .9);
 // 		border-bottom: 2px solid #000;
 		padding-top: 1%;
+		width: 95%;
 	}
 }
 /****************
 	Logo Area
 *****************/
-/*test css */
+/***test css ***/
 #navbar > .container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+//eliminates padding on the header so it will align with thumbnails
+#navbar {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+//end test css
+
 //positions logo in header
 .dc_logo {
 	float: right;
