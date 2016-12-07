@@ -83,7 +83,7 @@
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" usemap="#slLogo"/>
               <map name='slLogo'>
                 <area  alt="" title="Weber State University" href="http://www.weber.edu" shape="rect" coords="0,0,53,54" style="outline:none;" target="_self"     />
-                <area  alt="" title="WSU Digital Collection" href="http://drupaldc.dev" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
+                <area  alt="" title="WSU Digital Collection" href="https://library.weber.edu" shape="rect" coords="56,6,304,54" style="outline:none;" target="_self"     />
               </map>
               </div>
           <?php endif; ?>
@@ -100,7 +100,7 @@
 
           <!-- DISPLAY DIGITAL COLLECTION SITE TITLE -->
           <div class="dc_logo" >
-        	<img alt="" class="digital_collections_logo" src="<?php print $base_path . 'sites/all/themes/wsu_dc/images/dc_logo.png'; ?>" style="height:58px; width:255px" />
+        	<a href="<?php print $base_path; ?>"><img alt="" class="digital_collections_logo" src="<?php print $base_path . 'sites/all/themes/wsu_dc/images/dc_logo.png'; ?>" style="height:58px; width:255px" /></a>
           </div>
           <!-- END DISPLAY DIGITAL COLLECTION SITE TITLE -->        
     </div>
