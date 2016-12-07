@@ -100,7 +100,7 @@
 
           <!-- DISPLAY DIGITAL COLLECTION SITE TITLE -->
           <div class="dc_logo" >
-        <?php print render($page['navigation']); ?>
+        	<img alt="" class="digital_collections_logo" src="<?php print $base_path . 'sites/all/themes/wsu_dc/images/dc_logo.png'; ?>" style="height:58px; width:255px" />
           </div>
           <!-- END DISPLAY DIGITAL COLLECTION SITE TITLE -->        
     </div>
