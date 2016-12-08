@@ -1,3 +1,31 @@
+/* Practice CSS for wrappers */
+#bg-wrapper	{
+// 	background-color: aqua;
+	background-image: url("../images/confectionary_purple.png");
+}
+#lg-container {
+	background-color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: white;
+}
+/* brighten the color of the hamburger menu */
+span.fa.fa-bars {
+	color: #beb0c8;
+}
+/* second page prevent overlapping over shadow box */
+#block-system-main > div > div > .col-sm-6 {
+	width: 49%;
+}
+@media screen and (max-width: 767px){
+	#block-system-main > div > div > .col-sm-6 {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+}
+}
+/*** end practice ***/
+
 /** Media CSS **/
 @media screen and (max-width: 767px){
 	div#featured-image {

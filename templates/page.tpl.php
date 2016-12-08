@@ -73,6 +73,9 @@
  * @ingroup templates
  */
 ?>
+<div id="bg-wrapper">
+<div id="lg-container" class="container">
+		
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?> top-bar">
   <div class="container-fluid">
     <div class="navbar-header col-xs-12 col-sm-6 col-md-5 col-lg-5">
@@ -196,6 +199,8 @@
 
   </div>
 </div>
+</div><!-- end lg-container -->
+</div><!-- end big-wrapper -->
 
 <!-- FOOTER -->
 <div id="footer" class="container-fluid">
