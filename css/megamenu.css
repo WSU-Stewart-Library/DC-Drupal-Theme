@@ -1,36 +1,65 @@
+/*** Mega Menu Main Styles ***/
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
-/* line 1, ../sass/megamenu.scss */
+/* line 2, ../sass/megamenu.scss */
 div#md-megamenu-1 {
   background-color: #2E2E2E;
   border-bottom: none;
 }
 
-/* line 5, ../sass/megamenu.scss */
+/* line 7, ../sass/megamenu.scss */
 #md-megamenu-1 .awemenu-item-level-1 > a {
   font-size: 14px;
   color: #ffffff;
 }
 
-/* line 9, ../sass/megamenu.scss */
+/* line 12, ../sass/megamenu.scss */
 div#menu-container {
   background-color: #2E2E2E;
   border-bottom: 2px solid #000;
   border-top: 4px solid #a391b1;
 }
 
-/* line 15, ../sass/megamenu.scss */
+/* line 17, ../sass/megamenu.scss */
 div#featured-image {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-/* line 20, ../sass/megamenu.scss */
+/* line 22, ../sass/megamenu.scss */
 #md-megamenu-1 .awemenu-submenu {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 25, ../sass/megamenu.scss */
+/* line 26, ../sass/megamenu.scss */
 section#block-md-megamenu-1 {
   font-family: 'Quicksand', sans-serif;
 }
+
+/*** End Mega Menu Main Styles ***/
+/*** Submenu Styles ***/
+/* line 32, ../sass/megamenu.scss */
+a.submenu_link {
+  font-size: 14px;
+  color: white;
+}
+
+/* line 37, ../sass/megamenu.scss */
+a.submenu_link:hover {
+  color: #8446ac;
+}
+
+/* line 41, ../sass/megamenu.scss */
+.md-separator-text > div > h6 {
+  font-size: 14px;
+  color: #bdbdbd !important;
+  padding: 1% 0% 1% 0%;
+}
+
+/* line 47, ../sass/megamenu.scss */
+.mm-image {
+  width: 130px;
+  padding: 1%;
+}
+
+/*** End Mega Menu Main Styles ***/
