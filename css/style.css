@@ -259,7 +259,7 @@ div#featured-image {
 
 /* line 22, ../sass/megamenu.scss */
 #md-megamenu-1 .awemenu-submenu {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* line 26, ../sass/megamenu.scss */
@@ -273,24 +273,30 @@ section#block-md-megamenu-1 {
 a.submenu_link {
   font-size: 14px;
   color: white;
+  padding: 5px;
+  text-transform: uppercase;
 }
 
-/* line 37, ../sass/megamenu.scss */
+/* line 39, ../sass/megamenu.scss */
 a.submenu_link:hover {
   color: #8446ac;
 }
 
-/* line 41, ../sass/megamenu.scss */
+/* line 43, ../sass/megamenu.scss */
 .md-separator-text > div > h6 {
   font-size: 14px;
-  color: #bdbdbd !important;
+  color: #f0ad4e !important;
   padding: 1% 0% 1% 0%;
+  text-align: center;
 }
 
-/* line 47, ../sass/megamenu.scss */
+/* line 50, ../sass/megamenu.scss */
 .mm-image {
-  width: 130px;
-  padding: 1%;
+  width: 135px;
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*** End Mega Menu Main Styles ***/

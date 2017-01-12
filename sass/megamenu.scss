@@ -20,7 +20,7 @@ div#featured-image {
 }
 //background transperancy 
 #md-megamenu-1 .awemenu-submenu {
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0,0,0,.9);
 }
 //megamenu font
 section#block-md-megamenu-1 {
@@ -33,6 +33,8 @@ a.submenu_link {
 // 	font-family: "Poiret One";
 	font-size: 14px;
 	color: white;
+	padding: 5px;
+	text-transform: uppercase;
 }
 a.submenu_link:hover {
 	color: #8446ac;
@@ -40,13 +42,17 @@ a.submenu_link:hover {
 //menu seperator title styles on menu
 .md-separator-text > div > h6 {
 	font-size: 14px;
-	color: #bdbdbd !important;
+	color: /* #bdbdbd */#f0ad4e !important;
 	padding: 1% 0% 1% 0%;
+	text-align: center;
 }
 //image styles
 .mm-image {
-	width: 130px;
-	padding: 1%;
+	width: 135px;
+	padding: 2%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*** End Mega Menu Main Styles ***/
 
