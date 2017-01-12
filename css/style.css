@@ -272,7 +272,7 @@ section#block-md-megamenu-1 {
 /* line 32, ../sass/megamenu.scss */
 a.submenu_link {
   font-size: 14px;
-  color: white;
+  color: whitesmoke;
   padding: 5px;
   text-transform: uppercase;
 }
@@ -283,6 +283,15 @@ a.submenu_link:hover {
 }
 
 /* line 43, ../sass/megamenu.scss */
+.line > hr {
+  margin: 25px 0;
+  height: 1px;
+  border: 0;
+  background: #f0ad4e;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #f0ad4e));
+}
+
+/* line 52, ../sass/megamenu.scss */
 .md-separator-text > div > h6 {
   font-size: 14px;
   color: #f0ad4e !important;
@@ -290,7 +299,7 @@ a.submenu_link:hover {
   text-align: center;
 }
 
-/* line 50, ../sass/megamenu.scss */
+/* line 59, ../sass/megamenu.scss */
 .mm-image {
   width: 135px;
   padding: 2%;

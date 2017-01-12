@@ -32,13 +32,22 @@ section#block-md-megamenu-1 {
 a.submenu_link {
 // 	font-family: "Poiret One";
 	font-size: 14px;
-	color: white;
+	color: whitesmoke;
 	padding: 5px;
 	text-transform: uppercase;
 }
 a.submenu_link:hover {
 	color: #8446ac;
 }
+//horizontal line color & style
+.line > hr {
+	margin: 25px 0;
+    height: 1px;
+    border: 0;
+    background: #f0ad4e;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #f0ad4e));
+}
+
 //menu seperator title styles on menu
 .md-separator-text > div > h6 {
 	font-size: 14px;
