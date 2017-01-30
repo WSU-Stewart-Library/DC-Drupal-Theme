@@ -113,6 +113,15 @@ div#flexslider-1 {
 /*************************************
 		Collections List/View
 **************************************/
+/*** Links on front page in thumbnails***/
+.thumbnail > .caption > h3 > a {
+    display: block;
+    line-height: initial;
+}
+.thumbnail > .caption > h3 > a:hover {
+    display: block;
+    line-height: initial;
+}
 /*** Button Styles ***/
 #views-bootstrap-thumbnail-1 > div > div > .thumbnail > .caption > .btn-primary {
 	background-color: /* cadetblue */#ff9000;
