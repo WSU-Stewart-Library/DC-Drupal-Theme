@@ -608,6 +608,17 @@ a.btn.btn-success:hover {
   border-color: #22393a;
 }
 
+/********************************
+	 Third Page Image Styles
+*********************************/
+/* line 232, ../sass/content.scss */
+section#block-system-main .view-collection-subject-view img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
 /*
 $wsu-white:							#f3f3f3;
 $wsu-purple:						#492365;
